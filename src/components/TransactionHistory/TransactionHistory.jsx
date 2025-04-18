@@ -3,7 +3,7 @@ import css from "./TransactionHistory.module.css";
 export default function TransactionHistory({ items }) {
     return (
         <table className={css.transition}>
-            <thead>
+            <thead className={css.transitionHeader}>
                 <tr>
                     <th>Type</th>
                     <th>Amount</th>
